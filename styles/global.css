@@ -1,0 +1,213 @@
+body * {
+    background-color: hsla(0, 0%, 96%, 1);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+}
+
+header{
+    padding-left: 32px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: tomato; */
+}
+
+.profile img{
+    width: 161px;
+    height: 161px;
+    border: 1px solid #4064BF;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.name p{
+    font-size: 32px;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin-top: 24px;
+    font-weight: bold
+}
+
+.work p{    
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin-top: 8px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.right a{
+    text-decoration: none;
+    color: #3D548F;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.download-cv a {
+    background: #077526;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    float: right;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+i{
+    margin-right: 8px;
+    background-color: #077526;
+}
+
+
+.back-different *{
+    background-color: #CFDBFC;
+}
+
+.history .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 24px;
+}
+
+.title-section p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+.text-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 24px;
+    margin: 24px 72px;
+}
+
+
+.tecnologies {
+    padding-bottom: 8px;
+    padding-top: 24px;
+}
+
+.cards{
+    color: white;
+    margin-top: 16px;
+}
+
+.row-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    width: max-content;
+    height: auto;
+}
+
+.card p{
+    padding: 6px 36px;
+    margin: 12px;
+    border-radius: 4px;
+    font-family: "Work Sans" ,sans-serif;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.experient-card *{
+    background-color: hsla(223, 60%, 60%, 1);
+}
+
+.normal-card *{
+    background-color: hsla(137, 62%, 60%, 1);
+}
+
+.beginner-card * {
+    background-color: hsla(61, 72%, 40%, 1);
+}
+
+.legends{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 52px;
+}
+ 
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.legend { 
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.legend p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 16px;
+}
+
+.circle-experient{
+    background-color: hsla(223, 60%, 60%, 1);
+}
+
+.circle-normal{
+    background-color: hsla(137, 62%, 60%, 1);
+}
+
+.circle-beginner{
+    background-color: hsla(61, 72%, 40%, 1);
+}
+
+
+.repositories{
+    padding-top: 32px;
+}
+
+
