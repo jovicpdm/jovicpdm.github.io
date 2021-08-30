@@ -1,0 +1,33 @@
+main {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+}
+
+.profile-info{
+    display: grid;
+    grid-template-areas: 
+    'photo  summary'
+    'name   none'
+    'work   download-cv'
+    ;
+}
+
+.photo{
+    grid-area: photo;
+}
+
+.name{
+    grid-area: name;
+}
+
+.work{
+    grid-area: work;
+}
+
+.summary{
+    grid-area: summary;
+}
+
+.download-cv{
+    grid-area: download-cv;
+}
