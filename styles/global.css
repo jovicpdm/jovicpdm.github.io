@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
+#all{
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
     display: grid;
     grid-template-rows: repeat(6, auto);
     font-family: 'Work Sans', sans-serif;
@@ -128,6 +134,7 @@ body {
 }
 
 .history p{
+    margin-top: 0.5rem;
     font-size: 1.25rem;
     font-weight: 400;
 }
@@ -212,6 +219,7 @@ body {
     grid-template-rows: repeat(2, auto);
     margin: 3.4rem 0 7.5rem;
     justify-content: center;
+    align-items: center;
 }
 
 .repository i{
@@ -239,6 +247,7 @@ body {
     display: grid;
     grid-template-rows: repeat(3, auto);
     justify-content: center;
+    align-items: center;
 }
 
 .contact i{
@@ -278,7 +287,29 @@ footer{
         padding: 1rem;
     }
 
-    .name p{
-        max-width: fit-content;
+    .profile-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
     }
+
+    .name p{
+        font-size: 1.5rem;
+    }
+
+    .row-card{
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .photo img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .download-cv{
+        margin-top: 1rem;
+        float: left;
+    }   
 }
